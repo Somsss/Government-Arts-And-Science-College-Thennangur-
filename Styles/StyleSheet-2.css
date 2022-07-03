@@ -1,0 +1,226 @@
+html,body 
+{
+    margin:0px;
+    padding:0px;
+    padding-top:20px;
+    background:#25383C;
+    font-family:Arial;
+    font-size:12px;
+     font-color:#000;
+}
+.floatLeft
+{
+    float :left ;
+}
+.justify
+{
+    text-align:justify;
+}
+.floatRight
+{
+    float :right;
+}
+#wrapper
+{
+    margin:0px auto;
+    width:980px;
+    height:796px;
+    position:relative;
+    top: -1px;
+    left: 0px;
+}
+#wrapper .header
+{
+    text-align:center;
+    background-color:skyblue;
+    display:block;
+    padding:10px 0px 10px 17px;
+}
+#wrapper .header h1
+{
+    font-size: 45px;
+    padding:0px;
+    margin:8px 8px 0 8px;
+}
+#wrapper .header h4
+{
+    font-size:25px;
+    padding:0px;
+    margin:0px 8px 8px 8px;
+}
+#wrapper .header h2
+{
+    font-size:30px;
+    padding:0px;
+    margin:8px;
+}
+#wrapper .slideshow
+{
+    /*width:980px;*/
+    background:#fff;
+    padding:0px 0 15px 17px;
+}
+#wrapper .slideshow img
+{
+    
+}
+#wrapper .news
+{
+    max-width:980px;
+    overflow:hidden;
+    display:block;
+    color:#555555;
+    height:20px;
+    padding:5px 17px 5px 17px;
+}
+#wrapper .news a
+{
+    color:yellw;
+    text-decoration:none;
+}
+#wrapper .quicklinks
+{
+    float:left;
+    min-width:190px;
+    max-width:194px;
+    background:#f4f4f4;
+    margin-top:20px;
+    margin-right:17px;
+}
+#wrapper .quicklinks .title
+{
+    max-width:194px;
+    background:Yellow;
+    color:black;
+    padding:7px 0 7px 20px;
+    box-shadow:0px 12px 10px -10px #000000;
+}
+#wrapper .quicklinks ul
+{
+    max-width:194px;
+    border-right:1px solid #f0f0f0;
+    border-left:1px solid #f0f0f0;
+    border-bottom:1px solid #f0f0f0;
+    margin:0px;
+    padding:0px;
+    padding:10px 0 10px 20px;
+    margin-top:2px;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;    
+}
+#wrapper .quicklinks ul li
+{
+    list-style:none;
+    text-decoration:none;
+    padding:5px 0 5px 0;
+}
+#wrapper .quicklinks ul li a
+{
+    list-style:none;
+    text-decoration:none;
+    color:#000;
+}
+#wrapper .quicklinks ul li a:hover
+{
+    list-style:none;
+    text-decoration:none;
+    color:#505050;
+    padding-left:5px;
+}
+#wrapper .maincontent p
+{
+    color:#6600FF;
+}
+#wrapper .maincontent
+{    
+    background:#ffffff;
+    height:auto;
+    display:inline-block;
+    padding: 1px 0 20px 17px;
+    max-width:980px;
+    width:963px;
+}
+#wrapper .maincontent .welcome
+{
+    float: left;
+    padding: 10px 20px 10px 9px;
+    width: 520px;
+}
+#wrapper .footer
+{
+    width:980px;
+    margin:0px auto;
+    background:#7acc12;
+}
+#wrapper .footer ul
+{
+    height:40px;	
+	padding:0px;
+	margin:0px 0px 0px 17px;
+}
+#wrapper .footer ul li
+{
+	float:left;
+	list-style:none;
+	color:#105ca3;
+}
+#wrapper .footer ul li a 
+{
+    color:#ffffff;
+    text-decoration:none;
+    font-size:12px;
+    padding:10px 10px;
+    display:block;
+}
+#wrapper .admissioncontent
+{
+	display:block;
+	padding:3px 0 0 0;
+	list-style:none;
+	margin:0;
+}
+#wrapper ul.admissioncontent li
+{
+	display:block;
+	padding:1px 0 7px 0;
+	font-size:11px;
+}
+.physicalcontent
+{
+	display:block;
+	padding:3px 0 0 0;
+	list-style:none;
+	margin:0;
+}
+ul.physicalcontent li
+{
+	display:block;
+	padding:2px 0 7px 0;
+}
+ul#princilist
+{
+	list-style:none;
+	float:left;
+	margin:0;
+	padding:5px 0 0 0;
+}
+	ul#princilist li
+	{
+		display:block;
+		padding:3px 0 1px 0;
+	}
+
+
+highlight-txt { font-family: "geogrotesque-semibold"; color:#0d5a8e; }
+heading-part { width:100%; float:left; border-bottom:1px solid #dddddd;  padding-bottom: 15px;margin-bottom: 20px; position:relative}
+#heading1{ color:#FF0066; }
+heading-part h3 { color:#0272b6; font-size:30px;font-family: 'geogrotesque-semibold'; float:left; position:relative;  }
+heading-part:after { width:44px; height:18px; background:url(../uploads/images/heading-border.html) no-repeat 0 0; position:absolute; bottom:-9px; left:0; content:""; }
+heading-part ul {float: right; margin-top:8px; }
+heading-part ul li { float:left;color:#000;  font-family: "geogrotesque-medium"; }
+heading-part ul li span { margin:0 10px;color:#0272b6;}
+heading-part ul li a { color:#0272b6; font-size:16px; }
+heading-part ul li a:hover { color:#e68b00; }
+inner-cnt-area {background: #f3f3f3 none repeat scroll 0 0;float: left;padding: 25px;width: 100%;  min-height: 765px;box-shadow: 2px 3px 5px #dbdbdb;}
+para-pad	{ font-family: 'Open Sans', sans-serif; }
+para-pad1	{ font-family: 'Open Sans', sans-serif; font-weight:600; }

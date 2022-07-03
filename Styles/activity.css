@@ -1,0 +1,41 @@
+.col #head{
+	text-decoration: underline;
+	color:red;
+	margin-left: 350px;
+}
+.text{
+	margin-left: 350px;
+	font-size: 14px;
+}
+#para{
+	font-size: 14px;
+}
+#para1{
+	font-size: 14px;
+	margin-top: 30px;
+}
+.col h2{
+	text-decoration: underline;
+	color: red;
+}
+.col ul li{
+	color: #6600FF;
+	font-size: 13px;
+}
+.col ol li{
+	color: #6600FF;
+}
+.nss_image img{
+	width: 47%;
+	float: left;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+.subcol li a:hover{
+	color:#e68b00;
+}
+#women_img img{
+	width: 70%;
+	float: left;
+	margin: 10px 0px 30px 20px;
+}

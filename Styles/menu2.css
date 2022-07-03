@@ -1,0 +1,231 @@
+/*body {
+    top:0px;
+	background:#242424 url(body.png) center top no-repeat;
+	color:red;
+	font-size:13px;
+	}*/
+/*settings for whole menu*/
+.menu
+{
+    margin: 0 auto;
+    width: 980px;
+    background:lightblue;
+    /*background:url(../Images/menubg_trans.png) repeat-x;*/
+}
+/*main menu settings*/
+.nav
+{
+    height: 34px; /*background-image:url(../Images/backgroundMiddle.png); */
+    padding: 0px 0px 0px 0px; /*margin-left:27%;    margin-top:75px;    border-bottom: 1px solid #363937;*/
+    text-align: center;
+    width: 980px;
+    margin: 0px;
+}
+.nav ul {
+   height:0px;
+   cursor:pointer;
+   position:absolute;
+   list-style: none; 
+   font-size: 12px;  
+   margin-top:9px;
+}
+/*settings for submenus*/
+.nav ul ul{
+   position:relative;
+   z-index:100;  
+   margin-left:105px;
+
+}
+.nav ul ul ul{
+   margin-top:7px;
+}
+/*settings for links of main menu*/
+.nav li a
+{
+    font-weight: bold;
+    font-family: Arial;
+    color: #111111;
+    cursor: pointer;
+    display: block;
+    font-size: 12px;
+    padding-top: 10px;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 3;
+    /*text-shadow:1px 1px 2px #505050;*/
+}
+/*settings for upper menu main links */
+.nav a {
+   text-decoration: none;
+   font-family: 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+/*settings for upper menu main links*/
+.nav li
+{
+    cursor: pointer;
+    float: left;
+    height: 34px;
+    list-style: none outside none;
+    margin-right: 1px;
+    overflow: visible;
+    position: relative;
+    text-align: center;
+    width: 120px;
+    z-index: 30;
+    font-family: Arial;
+    border-right:1px solid #444444;
+}
+/*settings for upper hover effect*/
+.nav li .hover
+{
+    background:url(../Images/li_trans.png) repeat;
+    /*background:url(../Images/backgroundMiddleOver.png);*/
+    /*background: #ffffff; /*border-radius: 5px 5px 5px 5px;*/
+    cursor: pointer;
+    height: 0px;
+    display: none;
+    z-index: 1;
+    margin-left: -2px;
+    margin-top: -25px;
+    text-shadow: none;
+    width: 123px;
+}
+
+.nav li a:hover
+{
+    color:#fff;
+}
+/*settings for submenus*/
+.nav li ul
+{
+    background:#505050;
+    display: block;
+    margin-left: -43px;
+    width: 490px;
+}
+.nav li li
+{
+    border-bottom: thin solid #454545;
+    border-left: medium none;
+    border-right: medium none;
+    color: #000000;
+    cursor: pointer;
+    display: none;
+    float: none;
+    font-size: 12px;
+    height: 23px;
+    margin: 0 0 0 1px;
+    min-height: 23px;
+    padding: 4px 0 0 15px;
+    text-align: left;
+    
+    /*background-color: #1E1E20;*/
+    background:url(../Images/li_trans.png) repeat;
+    /*filter: alpha(opacity=100);
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1;*/
+}
+.nav li li a:hover
+{
+    color:#fff;
+}
+/*settings for links in submenus level 2, 3 and 4*/
+.nav li li a
+{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    padding-top:2px;
+    /*padding-left:10px;*/
+}
+
+.nav li li li
+{
+    color: #DC3522;
+    background-color: #2A2B2C;
+    margin-left: 210px;
+}
+.nav li li li li
+{
+    color: #fff;
+    background-color: #000;
+}
+
+/* settings for submenu links on rollover*/
+.nav ul, li li
+{
+    width: 0px;
+}
+/*settings for submenu links*/
+
+.nav li li.alt
+{
+    background-color: #333;
+}
+/*settings for triangle that represents submenus*/
+ul.nav li li.submenu2 span
+{
+    background: url(../Images/li_trans.png) repeat;
+}
+
+.submenu:hover
+{
+   
+}
+.nav li li.submenu2
+{
+    background: url(../Images/li_trans.png) repeat;
+}
+.nav li li.submenu2:hover, .nav li li.submenu3:hover
+{
+    background: url(../Images/triangle_sub.html) 100% 50% no-repeat;
+    background:#1c1919;
+}
+.nav li li li.submenu3
+{
+    background: url(../Images/triangle_sub_small.html) 100% 50% no-repeat;
+}
+.nav li li:hover, .nav li li li:hover
+{
+    background-color: #1c1919;
+    border-bottom: thin solid #454545;
+}
+.nav li li.submenu2 li
+{
+    background-color: #1E1E20;
+}
+.nav li li.submenu2 li:hover
+{
+    background-color: #444444;
+    border-bottom: thin dotted #000;
+}
+.submenu li:hover a
+{
+    /*color of font of hover effect on first submenu*/
+    color: #fff;
+}
+.submenu li:hover li a, .submenu li:hover li:hover li a, .submenu li li a
+{
+    /*color of font for submenu level 2 and 3*/
+    color: #fff;
+}
+.submenu li:hover li:hover a
+{
+    /*color of font for hover on submenu level 1*/
+    color: #000;
+}
+.submenu li:hover li:hover li:hover a
+{
+    /*color of font for hover on submenu level 2*/
+    color: #000;
+}
+.titleMenu2
+{
+    text-align: center;
+}
+.linkText
+{
+    text-align: center;
+}

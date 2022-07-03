@@ -1,0 +1,73 @@
+
+/*   Clickable Horizontal Headline Crawler */
+/*   Copyright 2010, Michael J. Hill.  All rights reserved. Used with permission.  www.javascript-demos.com */
+/*   Free use of the code, so long as the above notice is kept intact */
+
+
+/* edit to suit */
+/* position: absolute is not required, used for demo only */
+
+.crawl_container
+{
+    position: static;
+    left: 207px;
+    top: 146px;
+    overflow: hidden;
+    height: 20px;
+    color: #ffffff;
+    width: 980px;
+}
+
+.crawler
+{
+    font-family: arial;
+    font-size: 9pt;
+    white-space: nowrap;
+    padding-top: 3px;
+    color: light yellow;
+    cursor: default;
+}
+
+.crawler a
+{
+    text-decoration: none;
+}
+.crawler a:hover
+{
+    /*background-color: #ffff00;*/
+    color:#ffffff;
+    font-weight: bold;
+}
+
+.odd_color
+{
+    color: #fff;
+}
+
+.even_color
+{
+    color: #red;
+}
+
+.copyright_MJH
+{
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    text-align: center;
+    font-family: veranda;
+    font-size: 8pt;
+    color: #d3d3d3;
+    display: none;
+}
+
+.copyright_MJH a
+{
+    color: #b0e0e6;
+}
+
+
+
+
+

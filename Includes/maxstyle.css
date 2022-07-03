@@ -1,0 +1,48 @@
+/* default styles */
+.inner-content p{ font-size:17px !important; line-height:26px !important; }
+.inner-cnt-area li { font-size:17px !important;}
+.inner-content .heading-part ul li a { font-size:16px !important;}
+.inner-content .dept-list li a { font-size:17px !important;}
+.resp-tabs-list.dept-list li{ font-size:17px !important;}
+.quick-link-list li a { font-size:15px;}
+
+.font-txt a.font-big { background:#129DE4;}
+
+
+.font-txt a.font-small {  font-size: 12px !important; } 
+.font-txt a.font-mid{  font-size: 14px !important; }
+.font-txt a.font-big{  font-size: 16px !important; }
+
+
+/*.dept-list li a { background: url(../images/list-side-arrow.png) no-repeat 20px 19px; }
+.dept-list li.active-side > a, dept-list li a:hover {background: url(../images/list-side-arrow.png) no-repeat 20px 19px #d8d8d8;}*/
+.moto-pad p { font-size: 22px !important; line-height:40px !important; }
+
+.inner-cnt-area h3 { font-size:18px !important; line-height:27px !important;}
+.inner-cnt-area h6  { font-size:20px !important; line-height:24px !important;}
+.inner-cnt-area h2  { font-size:23px !important; line-height:23px !important;}
+.inner-cnt-area h5 a  { font-size:20px !important; line-height:24px !important;}
+.inner-cnt-area h5  { font-size:21px !important; line-height:25px !important;}
+
+.status-login label { font-size:17px !important; line-height:26px; }
+
+.inner-cnt-area table th, .inner-cnt-area table td { font-size:17px !important;}
+
+.links-list li h2 { font-size:20px;}
+.newsticker li a{ font-size:16px;}
+.blue-field-txt h2 { font-size:19px;}
+.blue-fields li a { padding:0 32px 0 22px }
+.list-fields li h3  { font-size:18px;}
+
+.banner-sec h3 { font-size:23px;}
+.banner-sec h4 { font-size:17px;}
+.banner-sec p { font-size:16px;}
+.vc-desk-lft.news-events-ryt .vc-details h6 { font-size:13px;}
+.banner-sec a.view-more-btn { font-size:15px;}
+
+
+.flex-caption h1 { font-size:29px;}
+
+.inner-cnt-area.faculty-list > ul > li > a {font-size:18px !important; }
+.inner-cnt-area.faculty-list > ul >  li > ul > li > a {font-size:17px !important; }
+

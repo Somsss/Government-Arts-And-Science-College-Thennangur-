@@ -1,0 +1,282 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	background:url(../images/background_bg.html) repeat-x top left;
+	margin:0 auto;
+	padding:0;
+	font-family:"Times New Roman";
+	font-size:12px;
+	color:#232323;
+}
+a, img { outline:none; border:none; text-decoration:none; }
+a:hover { text-decoration:underline; }
+p, h1, h2, h3, h4, h5, h6 { padding:0; margin:0; font-weight:normal; }
+p { color:#232323; line-height:18px; }
+h1, h2, h3, h4, h5, h6, .examTitle { font-family:'NovaLightCondensedSSiLightCon'; }
+.clear { clear:both; }
+@font-face {
+    font-family:'NovaLightCondensedSSiLightCon';
+    src: url('nova16-webfont.html');
+    src: url('nova16-webfont86d7.html?iefix') format('eot'),
+         url('nova16-webfont-2.html') format('woff'),
+         url('nova16-webfont-3.html') format('truetype'),
+         url('nova16-webfont-4.html#webfontvDT4YBev') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#outerDiv { width:978px; margin:0 auto; }
+#logo { float:left; }
+
+.topMenu { float:right; width:150px; padding-top:55px; }
+.topMenu ul { margin:0; padding:0; padding-top:17px; }
+.topMenu ul li { list-style:none; float:left; font-family:Arial, Tahoma, Verdana; font-size:11px; padding:0px 5px 0px 0px; border-right:1px solid #054e79; margin-right:5px; }
+.topMenu ul li.liLast { border:none; padding:0px; }
+.topMenu ul li img { float:left; padding:0px 5px; }
+.topMenu ul li a { color:#054e79; }
+
+.topMenu1 { float:right; width:470px; padding-top:10px; }
+.topMenu1 ul { float:right; margin:0; padding:0; padding-top:10px; }
+.topMenu1 ul li { list-style:none; float:left; font-family:Arial, Tahoma, Verdana; font-size:11px; padding:0px 5px 0px 0px; border-right:1px solid #054e79; margin-right:5px; }
+.topMenu1 ul li.liLast { border:none; padding:0px; }
+.topMenu1 ul li img { float:left; padding:0px 5px; }
+.topMenu1 ul li a { color:#054e79; }
+
+
+.menuDiv { width:100%; background:url(../images/menu_bg.html) no-repeat top left; padding:6px 5px 0px 5px; float:left; position:relative; height:45px;  display:block; }
+.menuDiv ul { margin:0 auto; padding:0; display:block; }
+.menuDiv ul li { list-style:none; float:left; font-size:12px; text-shadow:#000 1px 1px 1px; display:block; }
+.menuDiv ul li a { color:#fff; padding:14px 19px 15px 19px; display:block; border-right:1px solid #064366; }
+.menuDiv ul li a:hover, .menuDiv ul li a.selected { color:#8fd6ff; text-decoration:none; }
+.menuDiv ul li a.lastLi { border:none; }
+
+.contentWrapper { background:url(../images/content_area_bg.html) repeat top left; width:966px; padding:0px 6px; float:left; position:relative; }
+.contentArea { width:954px; background:#fff; padding:6px; }
+
+.bannerAreaInner { background:url(../images/banner_area_bg.html) no-repeat top left; width:954px; margin:0 auto; padding-bottom:7px; border-bottom:1px solid #c3ebf5; position:relative; }
+.bannerArea { background:url(../images/banner_area_bg.html) no-repeat top left; width:954px; margin:0 auto; padding-bottom:0px; border-bottom:1px solid #c3ebf5; position:relative; }
+
+.bannerDiv { float:left; width:662px; padding:9px 9px 0px 8px; position:relative; }
+.bannerDiv ul { margin:0; padding:0; }
+.bannerAreaInner { background:none; padding:0; border:none; }
+
+.innerfade { position:relative; }
+
+.upcomingEvents { float:left; width:265px; }
+.upcomingEvents ul { margin:0; padding:70px 0px 0px 18px; }
+.upcomingEvents ul li { list-style:none; background:url(../images/events_list_icon.html) no-repeat 0px 4px; line-height:18px; padding:0px 0px 18px 17px; color:#fff; }
+.upcomingEvents a { color:#fff; }
+.upcomingEvents .readMore { float:right; width:75px; line-height:22px; }
+
+.leftSideBar { float:left; width:242px; padding-top:10px; }
+.leftSideBar h1 { font-size:20px; font-weight:bold; }
+.leftSideBar p { padding:2px 0px 0px 0px; }
+.leftSideContent { background:url(../images/sidebar_bg.html) repeat-x top left; padding:9px 10px 0px 10px; float:left; }
+.leftSideContent p {  width:200px; float:left; }
+.leftSideBar .readMore { float:left; }
+.leftSideBar .readMore img { margin-top:12px; }
+.sideCurveImg { float:left; padding-bottom:5px; }
+
+.newsSignup { background:url(../images/news_signup_img.html) no-repeat 0px 10px; padding:20px 8px 0px 8px; float:left;  }
+.newsSignup img { float:left; margin-right:5px; padding-top:3px; }
+
+.newsForm { width:205px; font-size:12px; color:#82b5cb; margin:0 auto; padding:5px 0px 12px 0px; }
+.newsTxtBox { float:left; border:1px solid #caebf7; width:114px; padding:2px 5px 2px 5px; margin-left:3px; }
+.newsSubmitBtn { background:none; border:none; padding:0; margin:0; font-size:13px; color:#82b5cb; cursor:pointer; }
+
+.contentDiv, .contentDivInner { width:430px; float:left; }
+.contentDiv  h1, .contentDivInner h1 { top:20px ; font-size:22px; font-weight:bold; margin-bottom: 10px;}
+.contentDiv  h1 span, .contentDivInner h1 span { color:#FF0066; }
+.contentDiv  hr , .contentDivInner hr{ margin-bottom:10px;  }
+.contentDiv h2, .contentDivInner h2 { color:#6600FF; font-size:20px; }
+.contentDiv h2 a { color:#01638d; }
+.contentDiv p, .contentDivInner p { padding:10px 0px; text-align:justify; font-size:14px;}
+.contentDiv .readMore, .contentDivInner .readMore { float:left; background:url(../images/read_more_bg_white.html) no-repeat top left; width:73px; line-height:19px; padding-left:8px; margin-bottom:10px; }
+.contentDiv .readMore a, .contentDivInner .readMore a { color:#fff; }
+
+.contentDivInner { width:690px; }
+.contentDivInner h3 { font-family:Arial, Tahoma, Verdana; font-size:13px; font-weight:bold; color:#6600FF; padding-top:10px; }
+.contentDivInner ul { margin:0; padding:0; padding:0px 0px 10px 0px; }
+.contentDivInner ul li { list-style:none; background:url(../images/list_icon.html) no-repeat 0px 3px; padding-left:15px; color:#707070; font-weight:bold; padding-bottom:10px; }
+.contentDivInner ul li a { color:#60A0D0; }
+
+.contentImg { float:right; margin-left:15px; margin-bottom:10px; }
+.contentImgLeft { float:left; margin-right:15px; margin-bottom:15px; }
+.vcName { padding:3px 5px; background:#f9feff; border:1px solid #daf6fa; width:130px; margin-top:10px; text-align:center; color:#1783b2; }
+
+.quickLinks, .innerListDiv { float:left; background:#f9feff; width:427px; border:1px solid #daf6fa; border-bottom:none; border-top:none; color:#646464; }
+.quickLinks2 		{ float:left; background:#f9feff; width:427px; border:1px solid #daf6fa; border-bottom:none; border-top:none; color:#646464; padding:0; margin:0; }
+.quickLinks { padding:15px 0px; }
+.quickContent { width:175px; float:left; padding:0px 15px; }
+.quickContent img { float:left; margin-right:10px; }
+.quickLinks ul { margin:0; padding:0; clear:both; }
+.quickLinks ul li { list-style:none; padding:3px 0px 2px 0px; }
+.quickLinks ul li a { color:brown; }
+
+.innerListDiv { width:639px; padding:0px 20px; }
+
+.rightSideBar { float:left; width:247px; padding-top:10px; padding-left:20px; }
+.videoDiv { background:url(../images/video_bg.html) no-repeat top; padding:6px 8px 7px 8px; }
+.homeGalleryDiv { float:left; margin:13px 0px; }
+.calendarDiv { background:url(../images/calendar_center_img.html) repeat-x top #c1effc; float:left; margin:0px; }
+.calendarImg { width:225px; margin:0 auto; margin-top:8px; }
+
+.footerArea { background:#003a5c; width:100%; text-align:center; }
+#contentBottomImg { width:978px; margin:0 auto; }
+.footerContent { width:978px; margin:0 auto; padding:10px 0px; line-height:20px; text-align:center; color:#508ebe; }
+.footerContent a { display:inline; margin:0px 2px; color:#508ebe; }
+
+.breadCrum
+{
+	width:100%;
+	float:right;
+	margin-bottom:15px;
+	border-bottom:1px solid #c3ebf5;
+}
+.breadCrum ul
+{
+	margin:0;
+	padding:0;
+	float:right;
+	padding-top:5px;
+}
+.breadCrum ul li
+{
+	float:left;
+	margin-right:8px;
+	list-style:none;
+	background:url(../images/arrow_bread_crum.html) no-repeat 0px 5px;
+	padding-left:10px;
+	font-family:Arial, Tahoma, Verdana;
+	font-size:12px;
+	color:#78bcea;
+	line-height:15px;
+	font-weight:normal;
+}
+.noLink
+{
+	color:#232323;
+}
+.breadCrum ul li:first-child
+{
+	padding:0;
+	background:none;
+}
+.breadCrum ul li a
+{
+	color:#232323;
+	text-decoration:none;
+	font-weight:normal;
+}
+.breadCrum ul li a:hover
+{
+	color:#78bcea;
+	text-decoration:underline;
+}
+.breadCrum h1 { float:left; padding-bottom:4px; }
+
+.gridTable, .resultTable { font-family:"Times New Roman"; font-size:11px; color:#232323; border:1px solid #c7e4f2; border-right:none; }
+.gridHead, .gridHeadLast { background:#60A0D0 url(../images/table_head_bg.html) repeat-x top left; padding:7px 10px 7px 10px; font-size:12px; font-weight:bold; color:#fff; border-right:1px solid #fff; border-bottom:1px solid #fff; }
+.gridHeadLast { border-right:1px solid #c7e4f2; }
+.gridContent { line-height:18px; padding:5px 10px; border-right:1px solid #c7e4f2; border-top:1px solid #c7e4f2; }
+.gridContent img { float:right; margin-right:10px; padding:3px; border:1px solid #c7e4f2; }
+.gridContent a img { border:none; margin:0; float:none; }
+
+.newsLetter { width:100%; clear:both; }
+.newsLetter p { padding:10px; border:1px solid #c7e4f2; margin-bottom:15px; background:#fff url(../images/newsletter_bg.html) repeat-x top left; }
+
+.resultForm { margin:0 auto; width:380px; clear:both; border:1px solid #c7e4f2; padding:15px 10px; }
+.resultTxt { line-height:18px; padding:3px 10px; }
+.resultTxtBox { float:left; border:1px solid #caebf7; width:114px; padding:4px 5px 4px 4px; margin-left:3px; }
+.resultBtn { width:66px; text-align:center; color:#fff; border:none; background:url(../images/submit_btn_bg.html) no-repeat top left; padding:3px 0px 3px 0px; cursor:pointer; }
+
+.resultTable { font-size:12px; }
+a.print { color:#000; }
+a.print img { margin-left:5px; display:inline; }
+.resultError { color:#F00; padding:15px 0px; }
+
+.examTitle { text-align:center; font-size:16px; font-weight:bold; }
+.printTable { margin:0 auto; width:620px; }
+.printTable p { font-size:11px; padding:10px 15px; }
+
+.revaluation { background:#60A0D0; width:500px; margin:0 auto; text-align:center; }
+.revaluation a { padding:5px 5px; color:#fff; display:block; }
+
+
+.st		{ float:left; width:680px;}
+.st_photo{ float:left; margin:8px 20px 10px 0px; padding:0px;}
+.lab		{ float:left;  margin:0px 10px 15px 0px; padding:0px; }
+.lab1		{ float:left;  margin:0px 10px 10px 10px; padding:2px; border:2px solid #1a719c; }
+
+.table				 { border-collapse:collapse;}
+.table td,  th 		 { border:1px solid #8dc8f5; padding:3px 7px 2px 7px; }
+.table th			 { padding-top:5px; padding-bottom:4px; background-color:#0ba9f3; color:#ffffff;}
+.table tr.alt td	 { color:#000000; background: #cdefff;}
+
+.email				 { color:#6600FF;}
+.email a			 { text-decoration:underline; color:#01638d;}
+.email a hover		 { text-decoration:none; color:#01638d;}
+
+
+
+.calendarDiv		{ height: 129px; overflow:hidden; padding:0;}
+
+#carousel_container {border:1px solid #aeebf0;  float:left; overflow:hidden; border-radius:5px 5px 5px 5px; padding:0px 6px 0px 6px; background:url(../images/gallery_img.html) repeat-x top #c0f0fe; }
+
+#carousel_inner {
+float:left; /* important for inline positioning */
+width:200px; /* important (this width = width of list item(including margin) * items shown */ 
+overflow: hidden; margin:0; padding:0;  /* important (hide the items outside the div) */
+/* non-important styling bellow */ position:relative;
+
+}
+
+#carousel_inner h1{ font-family:'NovaLightCondensedSSiLightCon'; color:#01638e; font-size:20px; font-weight:bold; margin:0; padding:5px 0px 0px 0px; }
+
+#carousel_ul {
+position:relative;
+left:0px; /* important (this should be negative number of list items width(including margin) */
+list-style-type: none; /* removing the default styling for unordered list items */
+margin: 0px;
+padding: 0px;
+width:9999px; /* important */
+/* non-important styling bellow */
+ 
+}
+
+#carousel_ul li{
+float: left; /* important for inline positioning of the list items */                                    
+width:88px; /* fixed width, important */
+/* just styling bellow*/
+ padding:2px  2px  2px 2px;
+height:70px;
+
+margin-top:6px;
+margin-bottom:10px; 
+margin-left:3px; 
+margin-right:3px;  border:1px solid #67aab6; 
+}
+
+#carousel_ul li img {
+.margin-bottom:-0px; /* IE is making a 4px gap bellow an image inside of an anchor (<a href...>) so this is to fix that*/
+/* styling */
+cursor:pointer; 
+cursor: hand;   
+ 
+}
+#left_scroll, #right_scroll{
+float:left; position:relative; top:60px; 
+ 
+width:15px; 
+
+}
+#left_scroll img, #right_scroll img{
+/*styling*/
+cursor: pointer;
+cursor: hand;
+}
+
+ul.list_home { float:left; width:100%; padding:0px 0px 0px 0px; margin:0px 0px 0px 0px; list-style-type:none; }
+ul.list_home li { float:left; padding:0px 20px 0px 0px; }
+.reg-para { padding:4px 0px!important; text-align:justify!important;}

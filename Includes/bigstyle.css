@@ -1,0 +1,7 @@
+/* default styles */
+
+.font-txt a.font-small {  font-size: 12px !important; } 
+.font-txt a.font-mid{  font-size: 14px !important; }
+.font-txt a.font-big{  font-size: 16px !important; }
+
+.font-txt a.font-mid { background:#129DE4;}

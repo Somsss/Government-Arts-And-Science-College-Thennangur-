@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+/* font-family: 'Open Sans', sans-serif; */
+
+@font-face {
+    font-family: 'geogrotesque-regular';
+    src: url('fonts/geogrotesque-regular-webfont.html');
+    src: url('fonts/geogrotesque-regular-webfontd41d.html?#iefix') format('embedded-opentype'),
+         url('fonts/geogrotesque-regular-webfont-2.html') format('woff'),
+         url('fonts/geogrotesque-regular-webfont-3.html') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'geogrotesque-semibold';
+    src: url('fonts/geogrotesque-semibold-webfont.html');
+    src: url('fonts/geogrotesque-semibold-webfontd41d.html?#iefix') format('embedded-opentype'),
+         url('fonts/geogrotesque-semibold-webfont-2.html') format('woff'),
+         url('fonts/geogrotesque-semibold-webfont-3.html') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'geogrotesque-medium';
+    src: url('fonts/geogrotesque-medium-webfont.html');
+    src: url('fonts/geogrotesque-medium-webfontd41d.html?#iefix') format('embedded-opentype'),
+         url('fonts/geogrotesque-medium-webfont-2.html') format('woff'),
+         url('fonts/geogrotesque-medium-webfont-3.html') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LUCIDA_H';
+    src: url('fonts/LUCIDA_H.html');
+    src: url('fonts/LUCIDA_Hd41d.html?#iefix') format('embedded-opentype'),
+         url('fonts/LUCIDA_H-2.html') format('woff2'),
+         url('fonts/LUCIDA_H-3.html') format('woff'),
+         url('fonts/LUCIDA_H-4.html') format('truetype'),
+         url('fonts/LUCIDA_H-5.html#LUCIDA_H') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lucida_handwritingitalic';
+    src: url('fonts/lhandw-webfont.html');
+    src: url('fonts/lhandw-webfontd41d.html?#iefix') format('embedded-opentype'),
+         url('fonts/lhandw-webfont-2.html') format('woff'),
+         url('fonts/lhandw-webfont-3.html') format('truetype'),
+         url('fonts/lhandw-webfont-4.html#lucida_handwritingitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_LUCIDA_H';
+	src: url('fonts/LUCIDA_H.html');
+	src: url('fonts/LUCIDA_Hd41d.html?#iefix') format('embedded-opentype'), url('fonts/LUCIDA_H-3.html') format('woff'), url('fonts/LUCIDA_H-4.html') format('truetype'), url('fonts/LUCIDA_H-5.html') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.inner-txt-part h2 { font-size:40px; color:#fff;font-family: 'geogrotesque-semibold'; padding:15px ; display:none;}
+.inner-txt-part h3{ font-size:22px; color:#fff; background:#222222; padding:5px 15px  ; display:none;}
+.inner-cnt-area h3 { font-size: 16px;  width: 100%;color: #000;display: inline-block;margin-bottom: 6px;margin-top: 12px;}
+.inner-cnt-area h5 {color: #e8891c;font-family: 'geogrotesque-medium';font-size: 22px; line-height:29px; margin-bottom:15px;}
+.inner-cnt-area h6 { color: #0272b6;font-size: 18px;font-family: "geogrotesque-medium";  width: 100%; line-height:22px; margin:2px 0 5px; }
+.inner-cnt-area .img-abt-vc + h6 { display:inline;}
+.inner-ryt {float: right;width: 304px;}
+.inner-lft { width:962px; float:left;}
+.inner-content p { line-height:24px;color:#333333; font-size:16px; margin-bottom:16px; text-align:justify; font-family:'geogrotesque-medium';  }
+.highlight-txt { font-family: "geogrotesque-semibold"; color:#6600FF; }
+.highlight-txt p {font-size:14px;}
+.orange-txt { font-family: "geogrotesque-semibold"; color:#e8891c; }
+.inner-cnt-area p:last-child { margin-bottom:0;}
+.inner-content p span {font-family: 'geogrotesque-semibold'; line-height:23px;}
+.inner-content {float: left;padding-top: 30px;width: 100%;}
+.heading-part { width:100%; float:left; border-bottom:1px solid #dddddd;  padding-bottom: 15px;margin-bottom: 20px;}
+.heading-part h2 { color:#0272b6; font-size:30px;font-family: 'geogrotesque-semibold'; float:left; position:relative; margin-bottom:0px; }
+.heading-part h2:after { width:44px; height:18px; background:url(../uploads/images/heading-border.html) no-repeat 0 0; position:absolute; bottom:-24px; left:0; content:""; }
+.heading-part ul {float: right; margin-top:8px; }
+.heading-part ul li { float:left;color:#000;  font-family: "geogrotesque-medium"; }
+.heading-part ul li span { margin:0 10px;color:#0272b6;}
+.heading-part ul li a { color:#0272b6; font-size:16px; }
+.heading-part ul li a:hover { color:#e68b00; }
+.inner-cnt-area {background: #f3f3f3 none repeat scroll 0 0;float: left;padding: 25px;width: 100%;  min-height: 765px;box-shadow: 2px 3px 5px #dbdbdb;}
+
+.inner-cnt-area table { background: #fff; border: 1px solid #dbdbdb; margin-bottom: 15px; } 
+.inner-cnt-area table th { background: #1E84C3 /*url("images/side-heading-bg.png") repeat scroll 0 0*/; border-right:1px solid #e7e7e7; color: #ffffff;
+ padding: 10px 10px 10px 10px; }
+.inner-cnt-area table th:nth-child(3), .inner-cnt-area table th:nth-child(4){ text-align:left; } 
+.inner-cnt-area table td {  padding: 5px 10px 5px 10px; border-bottom:1px solid #e7e7e7; border-right:1px solid #e7e7e7; color:#2a2a2a; font-family:'geogrotesque-medium';}
+.inner-cnt-area table td:first-child, .inner-cnt-area table td:nth-child(2), .inner-cnt-area table td:last-child { text-align:center; }
+.inner-cnt-area table td:nth-child(3) { color: #0272B6; font-size: 16px; }
+.inner-cnt-area table td img { float:none; }
+.inner-cnt-area table tr:last-child td { border-bottom:0;}
+.inner-cnt-area table tr:nth-child(2n) td { background:#f3f3f3; border-right:1px solid #e7e7e7; }
+.inner-cnt-area table th:last-child,.inner-cnt-area table td:last-child{border-right:0;} 
+.inner-cnt-area table tr td a {color: #00558e;outline: medium none;text-decoration:none;}
+.inner-cnt-area table tr td a:hover{color: #00558e;}
+.align_sno td img{ text-align: center; float:none;}
+.align_sno td, th, tr, thead, tbody, { text-align: center; float:none;}
+.inner-cnt-area table.align_sno td,.inner-cnt-area table.align_sno th{ text-align:left;}
+.inner-cnt-area table.align_sno td:first-child,.inner-cnt-area table.align_sno th:first-child { text-align:center;}
+.inner-cnt-area table.align_sno td:nth-child(3n){color:#2a2a2a;}
+
+.inner-cnt-area ul {margin-bottom: 20px; margin-left: 12px; }
+.inner-cnt-area li {  background: rgba(0, 0, 0, 0) url("../uploads/images/inner-list-icon.html") no-repeat scroll 0 7px / 12px auto; color: #333333;font-size: 16px; font-family: "geogrotesque-medium"; line-height: 25px;margin-bottom: 8px; padding-left: 22px; } 
+.inner-cnt-area li a { color:#00558e; }
+.inner-cnt-area li a:hover { text-decoration:underline;}
+.inner-lft  h4{ margin-top:20px; border:1px solid #d8d8d8; border-bottom:none;font-family: "geogrotesque-medium"; background: rgba(33,161,240,1);
+background: -moz-linear-gradient(top, rgba(33,161,240,1) 0%, rgba(30,132,195,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(33,161,240,1)), color-stop(100%, rgba(30,132,195,1)));
+background: -webkit-linear-gradient(top, rgba(33,161,240,1) 0%, rgba(30,132,195,1) 100%);
+background: -o-linear-gradient(top, rgba(33,161,240,1) 0%, rgba(30,132,195,1) 100%);
+background: -ms-linear-gradient(top, rgba(33,161,240,1) 0%, rgba(30,132,195,1) 100%);
+background: linear-gradient(to bottom, rgba(33,161,240,1) 0%, rgba(30,132,195,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21a1f0', endColorstr='#1e84c3', GradientType=0 );  color: #ffffff;
+    float: left;font-size: 21px;line-height: 33px;padding: 6px 13px;text-transform: uppercase;}
+.inner-lft h4 img {margin-right: 10px;}
+.inner-ryt h5 { font-size:20px; color:#fff; background:#1e84c3 url(../uploads/images/header-bg.html) no-repeat 0 0px; padding:17px; width:100%; float:left;background-size:cover;font-family: 'geogrotesque-semibold';    line-height: 22px;}
+.dept-list {background: #ececec none repeat scroll 0 0;float: left;width: 100%;}
+.dept-list li { width:100%; float:left; position:relative;}
+.dept-list li a { transition:all 0.3s ease; -moz-transition:all 0.3s ease; -webkit-transition:all 0.3s ease; -o-transition:all 0.3s ease; position:relative; z-index:1; font-family:'geogrotesque-medium'; font-size:16px; color:#333333; padding:13px 13px 13px 40px; width:100%; float:left; border-bottom:1px solid #cececd; background:url(../uploads/images/list-side-arrow.html) no-repeat 20px 17px;}
+.dept-list li:after{ -moz-transition:all 0.5s ease; -webkit-transition:all 0.5s ease; -o-transition:all 0.5s ease; transition:all 0.5s ease; background-color:#d8d8d8; z-index:0; width:0%; height:100%; content:""; position:absolute; left:0; top:0; }
+.dept-list li:hover:after { width:100%;}
+.dept-list li.active-side > a ,dept-list li a:hover{background:url(../uploads/images/list-side-arrow.html) no-repeat 20px 16px #d8d8d8;color: #000000;}
+.dept-list li:last-child a { border-bottom:0
+.highlight-txt { font-family: "geogrotesque-semibold"; color:#0d5a8e; }
+.orange-txt { font-family: "geogrotesque-semibold"; color:#e8891c; }
+.inner-cnt-area p:last-child { margin-bottom:0;}
+.inner-content p span {font-family: 'geogrotesque-semibold'; line-height:23px;}
+.inner-content {float: left;padding-top: 30px;width: 100%;}
+.heading-part { width:100%; float:left; border-bottom:1px solid #dddddd;  padding-bottom: 15px;margin-bottom: 20px;}
+.heading-part h2 { font-size:30px;font-family: 'geogrotesque-semibold'; float:left; position:relative;  }
+.heading-part h2:after { width:44px; height:18px; background:url(../uploads/images/heading-border.html) no-repeat 0 0; position:absolute; bottom:-24px; left:0; content:""; }
+.heading-part ul {float: right; margin-top:8px; }
+.heading-part ul li { float:left;color:#000;  font-family: "geogrotesque-medium"; }
+.heading-part ul li span { margin:0 10px;color:#0272b6;}
+.heading-part ul li a { color:#0272b6; font-size:16px; }
+.heading-part ul li a:hover { color:#e68b00; }
+.inner-cnt-area {background: #f3f3f3 none repeat scroll 0 0;float: left;padding: 25px;width: 100%;  min-height: 765px;box-shadow: 2px 3px 5px #dbdbdb;}
